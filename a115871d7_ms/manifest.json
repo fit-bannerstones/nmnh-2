@@ -1,0 +1,52 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://fit-bannerstones.github.io/nmnh-2/a115871d7_ms/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Crescent type bannerstone - view of entry in museum logbook",
+  "description": "View of bannerstone, accession number A115871, from the collection of the National Museum of Natural History, Smithsonian Institute. This image has been collected as part of the FIT Archaic Bannerstone Project (bannerstone.fitnyc.edu).",
+  "thumbnail": "https://fit-bannerstones.github.io/nmnh-2/images/a115871d7_ms/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "https://fit-bannerstones.github.io/nmnh-2/sequence/a115871d7_ms.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://fit-bannerstones.github.io/nmnh-2/canvas/a115871d7_ms.json",
+          "label": "front",
+          "width": 6790,
+          "height": 5327,
+          "thumbnail": "https://fit-bannerstones.github.io/nmnh-2/images/a115871d7_ms/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://fit-bannerstones.github.io/nmnh-2/annotation/a115871d7_ms.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://fit-bannerstones.github.io/nmnh-2/images/a115871d7_ms/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://fit-bannerstones.github.io/nmnh-2/images/a115871d7_ms",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 6790,
+                "height": 5327
+              },
+              "on": "https://fit-bannerstones.github.io/nmnh-2/canvas/a115871d7_ms.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "https://fit-bannerstones.github.io/nmnh-2/images/a115871d7_ms/full/full/0/default.jpg",
+  "medium": "https://fit-bannerstones.github.io/nmnh-2/images/a115871d7_ms/full/600,/0/default.jpg",
+  "large": "https://fit-bannerstones.github.io/nmnh-2/images/a115871d7_ms/full/1140,/0/default.jpg"
+}

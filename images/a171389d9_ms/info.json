@@ -1,0 +1,49 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "https://fit-bannerstones.github.io/nmnh-2/images/a171389d9_ms",
+  "protocol": "http://iiif.io/api/image",
+  "width": 7000,
+  "height": 5317,
+  "sizes": [
+    {
+      "width": 7000,
+      "height": 5317
+    },
+    {
+      "width": 250,
+      "height": 190
+    },
+    {
+      "width": 600,
+      "height": 456
+    },
+    {
+      "width": 1140,
+      "height": 866
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "cors",
+        "sizeByWhListed",
+        "baseUriRedirect"
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "width": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ]
+    }
+  ]
+}

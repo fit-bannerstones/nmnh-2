@@ -1,0 +1,52 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://fit-bannerstones.github.io/nmnh-2/a97148d2/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Oval Tube type bannerstone",
+  "description": "View of bannerstone, accession number A97148, from the collection of the National Museum of Natural History, Smithsonian Institute. This image has been collected as part of the FIT Archaic Bannerstone Project (bannerstone.fitnyc.edu).",
+  "thumbnail": "https://fit-bannerstones.github.io/nmnh-2/images/a97148d2/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "https://fit-bannerstones.github.io/nmnh-2/sequence/a97148d2.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://fit-bannerstones.github.io/nmnh-2/canvas/a97148d2.json",
+          "label": "front",
+          "width": 4200,
+          "height": 2800,
+          "thumbnail": "https://fit-bannerstones.github.io/nmnh-2/images/a97148d2/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://fit-bannerstones.github.io/nmnh-2/annotation/a97148d2.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://fit-bannerstones.github.io/nmnh-2/images/a97148d2/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://fit-bannerstones.github.io/nmnh-2/images/a97148d2",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4200,
+                "height": 2800
+              },
+              "on": "https://fit-bannerstones.github.io/nmnh-2/canvas/a97148d2.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "https://fit-bannerstones.github.io/nmnh-2/images/a97148d2/full/full/0/default.jpg",
+  "medium": "https://fit-bannerstones.github.io/nmnh-2/images/a97148d2/full/600,/0/default.jpg",
+  "large": "https://fit-bannerstones.github.io/nmnh-2/images/a97148d2/full/1140,/0/default.jpg"
+}

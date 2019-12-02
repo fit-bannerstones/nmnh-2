@@ -1,0 +1,32 @@
+---
+layout: none
+---
+{
+  "@type": "sc:Canvas",
+  "@id": "https://fit-bannerstones.github.io/nmnh-2/canvas/a61058d8_card.json",
+  "label": "front",
+  "width": 4200,
+  "height": 2800,
+  "thumbnail": "https://fit-bannerstones.github.io/nmnh-2/images/a61058d8_card/full/250,/0/default.jpg",
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "@id": "https://fit-bannerstones.github.io/nmnh-2/annotation/a61058d8_card.json",
+      "motivation": "sc:painting",
+      "resource": {
+        "@id": "https://fit-bannerstones.github.io/nmnh-2/images/a61058d8_card/full/full/0/default.jpg",
+        "@type": "dcterms:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://fit-bannerstones.github.io/nmnh-2/images/a61058d8_card",
+          "profile": "http://iiif.io/api/image/2/level0.json"
+        },
+        "width": 4200,
+        "height": 2800
+      },
+      "on": "https://fit-bannerstones.github.io/nmnh-2/canvas/a61058d8_card.json"
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}
